@@ -1,0 +1,19 @@
+
+@keyframes transition {
+
+    from{
+   opacity: 0;
+   transform: rotateX(-10deg);
+   
+   }
+   to {
+       opacity: 3;
+       transform: rotateX(0);
+   
+   }
+   
+   }
+   .container-fluid{
+   animation: transition 0.75s;
+   
+   }
