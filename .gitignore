@@ -1,0 +1,6 @@
+#.gitingore file
+
+db_credentials.php
+sitemap.xml
+robots.txt
+ads.txt
