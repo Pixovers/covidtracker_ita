@@ -11,21 +11,9 @@ include '/home/covid/resources/classes/counter.php';
 
 <html prefix="og: http://ogp.me/ns#">
 
-
 <head>
 
-
-   
-
-
-
     <?php include "/home/covid/resources/templates/head.php"; ?>
-   
-
-
-
-
-
 
     <script>
         var sample = {
@@ -126,7 +114,7 @@ include '/home/covid/resources/classes/counter.php';
 
 <body>
 
-
+<!-- add navbar -->
     <?php
     include '/home/covid/it.resources/templates/navbar.php';
     ?>
@@ -210,10 +198,11 @@ include '/home/covid/resources/classes/counter.php';
         }
     </style>
 
-
+    <!-- main container -->
     <div class="container-fluid ">
 
         <div class="row mt-2">
+    <!-- info card creation -->
 
             <?php
             $cards = new InfoCard("Italia", $DATE);
@@ -224,13 +213,9 @@ include '/home/covid/resources/classes/counter.php';
         </div>
 
 
-        <!--import table-->
-
-
-
         <div class="row mt-2 mb-2">
-
             <div class="col-md-12 col-xl-9  py-2">
+            <!-- Italy table card -->
                 <div class="card text-white dark_mode_object shadow-lg  h-100 zoom">
                     <div class="card-header card-header d-flex flex-row align-items-center justify-content-between py-2">
                         <h5 class="m-0 font-weight-bold text-primary text-truncate">Italia</h5>
@@ -277,6 +262,8 @@ include '/home/covid/resources/classes/counter.php';
                 <?php
                 $italia_counter = new CounterItalia();
                 ?>
+
+                <!-- Italy live card -->
                 <div class="card dark_mode_object shadow-lg  zoom h-100">
                     <img src="https://it.covidtracker2020.live/images/previews/italia-it-covidtracker2020.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -311,6 +298,7 @@ include '/home/covid/resources/classes/counter.php';
             </div>
             <div class="col-md-12 py-2">
 
+            <!-- Italy Map Card -->
                 <div class="card text-white dark_mode_object shadow-lg mb-3 zoom">
                     <div class="card-header card-header d-flex flex-row align-items-center justify-content-between py-2">
                         <h5 class="m-0 font-weight-bold text-primary text-truncate">Mappa</h5>
