@@ -3,5 +3,9 @@ COVID-19 / Keep track of all coronavirus today cases, deaths, and all other news
 
 
 
+## Gallery
 
-![HomePage](https://raw.githubusercontent.com/Pixovers/covidtracker_ita/main/images/Home%20Covid%20Tracker%202020.png)
+![Gallery - it.CovidTracker2020.live](/img/screen-001.png)
+![Gallery - it.CovidTracker2020.live](/img/screen-002.png)
+![Gallery - it.CovidTracker2020.live](/img/screen-003.png)
+![Gallery - it.CovidTracker2020.live](/img/screen-004.png)
